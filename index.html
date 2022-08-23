@@ -5,45 +5,74 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kelly's Universe </title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body bgcolor="PapayaWhip">
-    <ul>
-        <font size=+1><li><a href="index.html">Home</a></li>
-        <li><a href="contato.html">Contato</a></li></font>
+<body bgcolor="#ffb8b8">
+    <ul id="menu">
+        <li>
+            <a href="index.html">Home</a>
+        </li>
+        <li>
+            <a href="contato.html">Contato</a>
+        </li>
     </ul>
-    <center><font color="DarkRed"><h1>Bem-vindx ao Kelly's Universe</h1></font></center>
 
-    <div style="display:inline-block;vertical-align:middle;">
-    <img src="https://i.imgur.com/Fkf0RMw.jpg" alt="Foto de Kelly"></div>
-    <div style="display:inline-block;">
+    <h1 class="center">Bem-vindx ao Kelly's Universe</h1>
+    <div class="container">
+        <div>
+            <img class="br-50 wh-300 p-30" src="https://i.imgur.com/Fkf0RMw.jpg" alt="Foto de Kelly">  
+        </div>
 
-    <font color="black">
-        <p><h3>
-        <br>Olá, meu nome é Kelly Kilma. Tenho 31 anos, sou recifense.
-        <br>Sou geminiana e dizem que somos pessoas adaptáveis e falantes.
-        <br>Moro com minha mãe, irmão e padastro, tenho 4 gatinhos, e sou namorada de Lucas. 
-        <br>
-        <br>Alguns dos meus hobbies são séries, lettering, gosto de assistir vídeos de caligrafia,
-        <br>também sou apreciadora de música, filmes de terror
-        <br>ex-otaku?, bem, e um tanto de outras coisas. 
-        <br>
-        <br>Profissionalmente, trabalhei como telemarketing, sou secretária e sou graduanda em Turismo.
-        <br>Mas hoje estou em transiçã para Desenvolvimento FullStack em Java e participando 
-        do Bootcampda Generation. 
-    </font></p></h3>
+        <div class="p-30">
+            <font color="black">
+                <p class="justify">
+                    Olá, meu nome é Kelly Kilma. Tenho 31 anos, sou recifense.
+                    Sou geminiana e dizem que somos pessoas adaptáveis e falantes.<br>
+                    Moro com minha mãe, irmão e padastro, 
+                    tenho 4 gatinhos, e sou namorada de Lucas.
+                </p> 
+                <p class="justify">
+                    Alguns dos meus hobbies são séries, lettering, gosto de assistir vídeos de caligrafia, também sou apreciadora de música,<br>
+                    filmes de terror, ex-otaku?...bem, e um tanto de outras coisas. 
+                </p>
+                <p class="justify">
+                    Profissionalmente, trabalhei como telemarketing, sou secretária e sou graduanda em Turismo.<br>
+                    Mas hoje estou em transição para Desenvolvimento FullStack em Java e participando do Bootcamp da Generation. 
+                </p> 
+            </font> 
+        </div>
     </div>
 
-    <center><h2>E vou estrear esse espaço com o vídeo da música Pequeno Castelo do Teatro Mágico:</h2></center>
+    <h2 class="center">Um vídeo de uma música legal: Pequeno Castelo do Teatro Mágico</h2>
+    <div class="container mb-50">
+        <iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/wWs2dqKRgdI" 
+            title="YouTube video player" 
+            frameborder="15" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+        </iframe>
+    </div>
+    <hr>
+    <footer>
+        <div class="container">
+            <a href="https://github.com/kellykilmadesousa" target="_blank"> 
+                <img class="tm-social p-30" src="assets/img/github.png" alt="Logo do Github">
+            </a>
 
-    <center><iframe 
-        width="560" 
-        height="315" 
-        src="https://www.youtube.com/embed/wWs2dqKRgdI" 
-        title="YouTube video player" 
-        frameborder="0" 
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-        allowfullscreen>
-    </iframe></center>
-
+            <a href="https://www.linkedin.com/in/kellykilma/" target="_blank">  
+            <img class="tm-social p-30" src="assets/img/linkedin.png" alt="Logo do Linkedin">
+            </a>
+            
+            <a href="https://www.instagram.com/amlikel/" target="_blank">  
+            <img class="tm-social p-30" src="assets/img/instagram.png" alt="Logo do instagram">
+            </a>     
+        </div>
+        <p class="center">
+            Todos os direitos reservados: Kelly Kilma &copy;
+        </p>  
+    </footer>
 </body>
 </html>

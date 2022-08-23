@@ -5,47 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contato</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
-<body bgcolor="PapayaWhip">
-
-    <font size=+1><li><a href="index.html">Home</a></li>
-    <li><a href="contato.html">Contato</a></li></font>
-
-    <font color="DarkRed"><center><h1>Entre em contato comigo:</h1>
-
-        <li><font size=+2><a href="https://www.linkedin.com/in/kellykilma/">Linkedin</a></font></li>
-        <h2>Acesse os meus projetos:</h2>
-        <li><font size=+2><a href="https://github.com/kellykilmadesousa">Github</a></li>
-        </center></body></font></font></font>
+<body>
+    <ul id="menu">
+        <li>
+            <a href="index.html">Home</a>
+        </li>
+        <li>
+            <a href="contato.html">Contato</a>
+        </li>
+    </ul>
     
-        <font color="DarkRed"><center><h2>E se preferir pode me escrever:</h2>
-        <form>
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome">
-        
-            <label for="email">E-mail:</label>
-            <input type="email" id="email">
-            <br>
-            <br>
-            <label for="assunto">Assunto:</label>
-            <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea></font>
-        
-            <button>Enviar</button>
+    <h1 class="center">Entre em contato comigo:</h1>
 
-            <font color="DarkKhaki"><h2>Endereço:</h2>
+    <div class="container">
+        <div>
+            <h2>Mande uma mensagem:</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome">
+                <br>
+                <br>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email">
+                <br>
+                <br>
+                <label for="assunto">Assunto:</label>
+                <textarea name="assunto" id="assunto" cols="60" rows="5"></textarea></font>
+                <button>Enviar</button>
+            </form>
+        </div>
+
+        <div class="ml-50">
+            <h2>Endereço:</h2>
 
             <p>Praça Barão do Rio Branco</p>
             <p>Recife - PE</p>
-
+    
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1660.926827286817!2d-34.87147984022993!3d-8.063484896087267!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab18a48ed72541%3A0xf5636ba795e00cd4!2sPra%C3%A7a%20Bar%C3%A3o%20do%20Rio%20Branco%20-%20Recife%2C%20PE%2C%2050020-360!5e0!3m2!1spt-PT!2sbr!4v1661194841606!5m2!1spt-PT!2sbr" 
             width="400" 
             height="250" 
             style="border:0;" 
             allowfullscreen="" 
             loading="lazy" 
-            referrerpolicy="no-referrer-when-downgrade"></iframe></font>
-        
-        </form>
-    </font>
+            referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+    </div>  
+    <hr>
+    <footer>
+        <div class="container">
+            <a href="https://github.com/kellykilmadesousa" target="_blank"> 
+                <img class="tm-social p-30" src="assets/img/github.png" alt="Logo do Github">
+            </a>
+
+            <a href="https://www.linkedin.com/in/kellykilma/" target="_blank">  
+            <img class="tm-social p-30" src="assets/img/linkedin.png" alt="Logo do Linkedin">
+            </a>
+            
+            <a href="https://www.instagram.com/amlikel/" target="_blank">  
+            <img class="tm-social p-30" src="assets/img/instagram.png" alt="Logo do instagram">
+            </a>     
+        </div>
+        <p class="center">
+            Todos os direitos reservados: Kelly Kilma &copy;
+        </p>  
+    </footer>    
 </body>
 </html>
